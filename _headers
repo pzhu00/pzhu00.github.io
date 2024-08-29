@@ -1,0 +1,9 @@
+/*    # This applies to all files on your site
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+
+/functions.json   # This applies specifically to the functions.json file
+  Access-Control-Allow-Origin: https://ukc-excel.officeapps.live.com
+  Access-Control-Allow-Methods: GET
+  Access-Control-Allow-Headers: Content-Type
