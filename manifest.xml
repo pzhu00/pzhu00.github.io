@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>61a5dc77-cc65-42ba-9b48-1ee08a5f272c</Id>
-  <Version>1.0.0.2</Version>
+  <Version>1.0.0.3</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="URGEFunctionTest2"/>
+  <DisplayName DefaultValue="URGEFunctionTest3"/>
   <Description DefaultValue="Write your own Excel functions in JavaScript."/>
   <IconUrl DefaultValue="https://urge-function.netlify.app/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://urge-function.netlify.app/assets/icon-64.png"/>
@@ -22,7 +22,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://urge-function.netlify.app/src/taskpane/taskpane.html"/>
+    <SourceLocation DefaultValue="https://urge-function.netlify.app/dist/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -90,10 +90,10 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://urge-function.netlify.app/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://urge-function.netlify.app/src/functions/functions.js"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://urge-function.netlify.app/dist/functions.js"/>
         <bt:Url id="Functions.Metadata.Url" DefaultValue="https://urge-function.netlify.app/dist/functions.json"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://urge-function.netlify.app/src/taskpane/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://urge-function.netlify.app/dist/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Functions.Namespace" DefaultValue="CONTOSO"/>
